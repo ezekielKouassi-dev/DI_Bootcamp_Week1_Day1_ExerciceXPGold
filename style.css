@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #DCDADA;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #DCDADA;
+}
+
+.btn-primary {
+    color: white;
+    padding: 3px;
+    background-color: #1646D5;
+    border: 1px solid #1646D5;
+    border-radius: 5px;
+}
+
+#wrapper {
+    padding-top: 150px;
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/462024/pexels-photo-462024.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.form-zone {
+    width: 400px;
+    margin: auto;
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    justify-content: center;
+}
+
+.article {
+    text-align: center;
+    margin: 10px;
+}
+
+.fa-solid {
+    color: blue;
+}
+
+.btn-submit {
+    height: 40px;
+}
+
+input {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
